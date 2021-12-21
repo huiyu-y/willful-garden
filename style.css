@@ -213,7 +213,7 @@ transform: scale(200%);
   }
 
   .drawing-img{
-    width: 200%;
+    width: 300%;
   }
 
   .drawings:hover + .garden-frame {
@@ -237,13 +237,23 @@ transform: scale(200%);
     background: rgba(0,0,0,0.1);
   }
 
+  .update{
+    position: fixed;
+    top: -10px;
+    right:5px;
+  }
 
+  .date{
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+  }
 
 .right{
   position: fixed;
   bottom: 40px;
   right:60px;
-
   -webkit-animation: scale 2s ease infinite;
 }
 

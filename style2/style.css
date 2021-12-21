@@ -209,6 +209,7 @@ hr {
 
 .number{
   font-size: 12px;
+  color: white;
 }
 
 .center-1 {
@@ -247,7 +248,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 30px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 3s ease infinite;
   position: absolute;
 }
 
@@ -274,7 +275,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 60px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 5s ease infinite;
   position: absolute;
 }
 
@@ -303,7 +304,7 @@ hr {
   transform: translate(-50%, -50%) rotate(-10deg);
   color: red;
   font-size: 55px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 2s ease infinite;
   position: absolute;
 }
 
@@ -357,7 +358,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 25px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 5s ease infinite;
   position: absolute;
 }
 
@@ -411,7 +412,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 25px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 6s ease infinite;
   position: absolute;
 }
 
@@ -438,7 +439,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 35px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 3s ease infinite;
   position: absolute;
 }
 
@@ -465,7 +466,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 32px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 2s ease infinite;
   position: absolute;
 }
 
@@ -492,7 +493,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 42px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 6s ease infinite;
   position: absolute;
 }
 
@@ -519,7 +520,7 @@ hr {
   color: rainbow;
   text-decoration: none;
   font-size: 42px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 6s ease infinite;
   position: absolute;
 }
 
@@ -546,7 +547,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 50px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 3s ease infinite;
   position: absolute;
 }
 
@@ -573,7 +574,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 40px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 5s ease infinite;
   position: absolute;
 }
 
@@ -600,7 +601,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 35px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 5s ease infinite;
   position: absolute;
 }
 
@@ -627,7 +628,7 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 38px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 6s ease infinite;
   position: absolute;
 }
 
@@ -654,15 +655,15 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 30px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 6s ease infinite;
   position: absolute;
 }
 
 .center-hover-17 {
   display: none;
   position: absolute;
-  top:88%;
-  left: 25%;
+  top:34%;
+  left: 20%;
   transform: translate(-50, -50%) rotate(10deg);
   position: absolute;
 }
@@ -681,15 +682,15 @@ hr {
   color: red;
   text-decoration: none;
   font-size: 30px;
-  -webkit-animation: blur 8s ease infinite;
+  -webkit-animation: blur 3s ease infinite;
   position: absolute;
 }
 
 .center-hover-18 {
   display: none;
   position: absolute;
-  top:82%;
-  left: 22%;
+  top:75%;
+  left: 20%;
   transform: translate(-50, -50%) rotate(-10deg);
   position: absolute;
 }
@@ -699,10 +700,325 @@ hr {
   -webkit-animation: none;
 }
 
+.center-19 {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%) rotate(13deg);
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-animation: blur 8s ease infinite;
+  position: absolute;
+}
+
+.center-hover-19 {
+  display: none;
+  position: absolute;
+  top:10%;
+  left: 75%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-19:hover+.center-hover-19 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-20 {
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  transform: translate(-50%, -50%) rotate(-3deg);
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-animation: blur 8s ease infinite;
+  position: absolute;
+}
+
+.center-hover-20 {
+  display: none;
+  position: absolute;
+  top:80%;
+  left: 55%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-20:hover+.center-hover-20 {
+  display: block;
+  -webkit-animation: none;
+}
+
+
+
+.center-21 {
+  display: block;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  color: red;
+  text-decoration: none;
+  font-size: 35px;
+  -webkit-animation: blur 5s ease infinite;
+  position: absolute;
+}
+
+.center-hover-21 {
+  display: none;
+  position: absolute;
+  top:57%;
+  left: 45%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-21:hover+.center-hover-21 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-22 {
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 90%;
+  transform: translate(-50%, -50%) rotate(40deg);
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-animation: blur 5s ease infinite;
+  position: absolute;
+}
+
+.center-hover-22 {
+  display: none;
+  position: absolute;
+  top:15%;
+  left: 85%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-22:hover+.center-hover-22 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-23 {
+  display: block;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%, -50%) rotate(-2deg);
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-animation: blur 5s ease infinite;
+  position: absolute;
+}
+
+.center-hover-23 {
+  display: none;
+  position: absolute;
+  top:8%;
+  left: 13%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-23:hover+.center-hover-23 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-24 {
+  display: block;
+  position: absolute;
+  top: 7%;
+  left: 35%;
+  transform: translate(-50%, -50%) rotate(3deg);
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  -webkit-animation: blur 3s ease infinite;
+  position: absolute;
+}
+
+.center-hover-24 {
+  display: none;
+  position: absolute;
+  top:0%;
+  left: 30%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-24:hover+.center-hover-24 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-25 {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  transform: translate(-50%, -50%) rotate(10deg);
+  color: red;
+  text-decoration: none;
+  font-size: 45px;
+  -webkit-animation: blur 3s ease infinite;
+  position: absolute;
+}
+
+.center-hover-25 {
+  display: none;
+  position: absolute;
+  top:10%;
+  left: 30%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-25:hover+.center-hover-25 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-26 {
+  display: block;
+  position: absolute;
+  top: 24%;
+  left: 32%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  color: red;
+  text-decoration: none;
+  font-size: 21px;
+  -webkit-animation: blur 8s ease infinite;
+  position: absolute;
+}
+
+.center-hover-26 {
+  display: none;
+  position: absolute;
+  top:14%;
+  left: 27%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-26:hover+.center-hover-26 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-27 {
+  display: block;
+  position: absolute;
+  top: 14%;
+  left: 45%;
+  transform: translate(-50%, -50%) rotate(5deg);
+  color: red;
+  text-decoration: none;
+  font-size: 27px;
+  -webkit-animation: blur 8s ease infinite;
+  position: absolute;
+}
+
+.center-hover-27 {
+  display: none;
+  position: absolute;
+  top:4%;
+  left: 40%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-27:hover+.center-hover-27 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-28 {
+  display: block;
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  transform: translate(-50%, -50%) rotate(15deg);
+  color: red;
+  text-decoration: none;
+  font-size: 55px;
+  -webkit-animation: blur 6s ease infinite;
+  position: absolute;
+}
+
+.center-hover-28 {
+  display: none;
+  position: absolute;
+  top:75%;
+  left:30%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-28:hover+.center-hover-28 {
+  display: block;
+  -webkit-animation: none;
+}
+
+.center-29 {
+  display: block;
+  position: absolute;
+  top: 79%;
+  left: 17%;
+  transform: translate(-50%, -50%) rotate(-1deg);
+  color: red;
+  text-decoration: none;
+  font-size: 17px;
+  -webkit-animation: blur 3s ease infinite;
+  position: absolute;
+}
+
+.center-hover-29 {
+  display: none;
+  position: absolute;
+  top:69%;
+  left:12%;
+  transform: translate(-50, -50%) rotate(-10deg);
+  position: absolute;
+}
+
+.center-29:hover+.center-hover-29 {
+  display: block;
+  -webkit-animation: none;
+}
+
+
+
 
   .hover-obj:hover {
     display: block;
   }
+
+  .update{
+    position: fixed;
+    top: -10px;
+    right:5px;
+  }
+
+  .date{
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+  }
+
 
   .right {
     position: fixed;
